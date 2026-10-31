@@ -153,6 +153,21 @@ This structure ensures:
 
 Maintaining fixed dataset partitions is essential for obtaining fair and comparable evaluation results across different models.
 
+### 📁 Dataset Splitting Methodology
+
+> [!NOTE]  
+> Target split ratio: **60% Train | 20% Validation | 20% Test**
+
+Because single images frequently contain instances of multiple categories, achieving an exact 60/20/20 balance for every class requires complex, computationally intensive metaheuristic optimization. 
+
+Instead, a **stratified random sampling** strategy was adopted. This simplified the preprocessing pipeline while maintaining a representative distribution across all sets. 
+
+The exact same methodology was applied to both **El Vergel** and **MGB-V2** datasets. For both datasets, the overall proportions were evaluated by aggregating the images across the training, validation, and test splits, ensuring that the target split ratios remained consistent.
+
+### Class Distribution
+Refer to the chart below for the total instance distribution per category across subsets for the **El Vergel** dataset:
+
+![Dataset Distribution for El Vergel](distribution_classes_El_Vergel.png)
 ---
 
 ## `results/`
