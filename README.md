@@ -2,7 +2,7 @@
 
 ![detections](predictions.jpg)
 
----
+----
 
 # 📌 Project Overview
 
