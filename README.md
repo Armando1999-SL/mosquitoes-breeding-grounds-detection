@@ -167,7 +167,7 @@ The exact same methodology was applied to both **El Vergel** and **MGB-V2** data
 ### Class Distribution
 Refer to the chart below for the total instance distribution per category across subsets for the **El Vergel** dataset:
 
-![Dataset Distribution for El Vergel](distribution_classes_El_Vergel.png)
+![Dataset Distribution for El Vergel](distribution_classes__El_Vergel.png)
 
 ---
 
